@@ -278,28 +278,6 @@ Headers:
   X-CSRFToken: <token from cookie>
 ```
 
-## Response Formats
-
-### Success Response
-```json
-{
-    "message": "Operation successful",
-    "data": {
-        // Response data
-    }
-}
-```
-
-### Error Response
-```json
-{
-    "error": "Error message",
-    "details": {
-        // Error details if available
-    }
-}
-```
-
 ## Status Codes
 - 200: Success
 - 201: Created
